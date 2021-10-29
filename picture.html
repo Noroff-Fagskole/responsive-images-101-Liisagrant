@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pictures.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive img</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 767px)" srcset="./img/mobilhb.png"/>
+        <source media="(min-width: 768px)" srcset="./img/tablethb.png"/>
+        <source media="(min-width: 1025px)" srcset="./img/desktophb.png"/>
+        <img src="./img/mobilhb.png" alt="Man running">
+    </picture>
+   
+    
+</body>
+ <!--img 
+    src="./img/mobilhb.png" 
+    srcset="./img/mobilhb.png 768w,
+            ./img/tablethb.png 1024w,
+            ./img/desktophb.png 1025w"
+    alt="Man running" 
+    aria-activedescendant="Man running" -->
+</html>
